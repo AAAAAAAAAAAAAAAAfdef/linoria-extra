@@ -13,7 +13,8 @@ local ThemeManager = {} do
 		['Tokyo Night'] 	= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Volcanic'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
 		['Quartz'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
-		['Hacker'] 			= { 8, httpService:JSONDecode('{"FontColor":"478912","MainColor":"1c1c1c","AccentColor":"399700","BackgroundColor":"090909","OutlineColor":"143d00"}') },
+		['Hacker'] 			= { 9, httpService:JSONDecode('{"FontColor":"478912","MainColor":"1c1c1c","AccentColor":"399700","BackgroundColor":"090909","OutlineColor":"143d00"}') },
+		['Light Mode'] 			= { 10, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"dddddd","AccentColor":"494949","BackgroundColor":"f9f9f9","OutlineColor":"aaaaaa"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
